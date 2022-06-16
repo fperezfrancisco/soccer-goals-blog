@@ -1,0 +1,206 @@
+/* CSS HERE */
+
+/* All general parts of site */ 
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font: 1rem sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    color: black;
+    background-color: rgb(244, 241, 241);
+}
+
+header {
+    position: relative;
+    margin: 0 auto;
+    border-collapse: collapse;
+    z-index: 2;
+    background-color: black;
+}
+
+main {
+    margin: auto;
+    display: flex;
+}
+
+img {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+/*  Header */
+
+header  #top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    padding-left: 25px;
+}
+
+header #small-logo {
+    width: 100px;
+    margin-top: 5px;
+}
+
+main nav {
+    display: none;
+    max-width: none;
+    min-width: 150px;
+    width: 15vw;
+    padding: 10px;
+    padding-top: 2%;
+    background-color: darkgray;
+    color: whitesmoke;
+}
+
+main article {
+    max-width: none;
+    min-width: none;
+}
+
+main img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.title-section {
+    margin-bottom: 5%;
+    max-height: 80vh;
+    overflow: hidden;
+    position: relative;
+    color: white
+}
+
+.full-width {
+    width: 100vw;
+}
+
+.title-section img {
+    position: relative;
+    width: 100%;
+}
+
+/*
+.title-section .goals-list {
+}*/
+
+.title-section .title-heading-group {
+    position: absolute;
+    z-index: 2;
+    bottom: 20%;
+    left: 10px;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+h2 {
+    /*color: yellow;*/
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 1rem;
+}
+
+/*
+.intro, .disclosure, .goals, .conclusion {
+    margin: 5% 7.5%;
+}
+*/
+
+main article .full-article {
+    margin: 0% 5% 0% 5%;
+    padding: 5px 5%;
+    background-color: white;
+    box-shadow: 5px 5px 3px rgb(220, 218, 218);
+}
+
+article .full-article .para, 
+article .full-article .container, 
+article .full-article .Goals dl dt {
+    border-collapse: collapse;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Goals dl .image {
+    position: relative;
+    max-height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    align-self: center;
+    justify-self: center;
+}
+
+#fitness {
+    position: relative;
+    top: -35vw;
+}
+
+.disclosure {
+    font-size: small;
+    font-style: italic;
+}
+
+.special-text {
+    font-weight: 400;
+    color: rgb(52, 52, 227);
+}
+
+dl dt {
+    font-size: larger;
+    font-weight: 900;
+    color: rgb(52, 52, 227);
+}
+
+.first-words {
+    font-variant-caps: all-small-caps;
+    font-size: 2rem;
+    font-weight: bold;
+    
+    color: rgb(52, 52, 227);
+}
+
+@media only screen and (min-width: 700px) {
+    .Goals dl .image {
+        position: relative;
+        max-height: 700px;
+        max-width: 1000px;
+        overflow: hidden;
+    } 
+
+    h1 {
+        font-size: 3.5rem;
+    }
+    h2 {
+        /*color: yellow;*/
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
